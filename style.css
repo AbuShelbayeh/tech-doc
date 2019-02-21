@@ -1,8 +1,14 @@
-/* Global Styles */
-
+/* fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
 body {
+    margin: 0;
+    padding: 0;
+
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
 }
@@ -18,4 +24,52 @@ code {
     white-space: pre-line;
     padding: 0.8em;
     margin: 1.5em;
+}
+
+/* NavBar */
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    width: 300px;
+    min-width: 290px;
+    padding: 10px 0;
+    border-right: 5px solid black;
+}
+nav header {
+    margin: 0 20px;
+    padding: auto 20px;
+}
+nav ul {
+    padding: 0;
+    margin: 10px 0;;
+}
+nav a {
+    border-top: 1px solid black;
+    color: black;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+nav a:hover {
+    background-color: #ddd; 
+}
+nav li {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+/* main */
+
+main {
+    position: relative;
+    margin-left: 310px;
+    padding: 20px;
+    background-color: #ffffff
 }
