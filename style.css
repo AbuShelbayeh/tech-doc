@@ -1,0 +1,21 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+
+header {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+code {
+    display: block;
+    background-color: #ccc;
+    white-space: pre-line;
+    padding: 0.8em;
+    margin: 1.5em;
+}
